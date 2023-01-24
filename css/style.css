@@ -1,0 +1,35 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background: red;
+    background: rgb(65, 64, 64);
+}
+
+.header__logo{
+    color: black;
+    font-size: 5rem;
+}
+
+.header__nav{
+    padding: 0 3rem;
+}
+
+.header__nav > ul{
+    display:  flex;
+    list-style: none;
+    gap: 2rem;
+    padding: auto;
+    height: 100%;
+    align-items: center;
+}
+
+.header__nav > ul > li{
+    background: black;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+}
+
+.header__nav > ul > li > a{
+    text-decoration: none;
+    color: #eee;
+}
