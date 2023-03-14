@@ -2,15 +2,16 @@
     include_once 'header.php';
 ?>
 
+<div class="center signupWrapper">
 <section class="signupForm">
-    <h2>Sign up</h2>
-    <form action="includes/signup.inc.php" method="post">
-        <input type="text" name="name" placeholder="Full name...">
-        <input type="text" name="email" placeholder="Email...">
-        <input type="text" name="uid" placeholder="Username...">
-        <input type="password" name="pwd" placeholder="Password...">
-        <input type="password" name="pwdrepeat" placeholder="Repeat password...">
-        <button type="submit" name="submit">Sign up</button>
+    <h2 class="signupForm__h2">Sign up</h2>
+    <form class="signupForm__form" action="includes/signup.inc.php" method="post">
+        <input class="signupForm__form__input" type="text" name="name" placeholder="Full name...">
+        <input class="signupForm__form__input" type="text" name="email" placeholder="Email...">
+        <input class="signupForm__form__input" type="text" name="uid" placeholder="Username...">
+        <input class="signupForm__form__input" type="password" name="pwd" placeholder="Password...">
+        <input class="signupForm__form__input" type="password" name="pwdrepeat" placeholder="Repeat password...">
+        <button class="signupForm__form__button" type="submit" name="submit">Sign up</button>
     </form>
     <?php
         if(isset($_GET["error"])){
@@ -38,7 +39,7 @@
         }
     ?>
 </section>
-
+</div>
 
 
 <?php

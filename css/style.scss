@@ -1,0 +1,70 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(65, 64, 64);
+
+    &__logo{
+        color: black;
+        font-size: 5rem;
+    }
+    &__nav{
+        padding: 0 3rem;
+        ul{
+            display:  flex;
+            list-style: none;
+            gap: 2rem;
+            padding: auto;
+            height: 100%;
+            align-items: center;
+            li{
+                background: black;
+                padding: 0.5rem 1rem;
+                border-radius: 1rem;
+                a{
+                    text-decoration: none;
+                    color: #eee;
+                }
+            }
+        }
+
+    }
+}
+
+.loginWrapper{
+    height: 94vh;
+}
+.loginForm{
+    height: fit-content;
+    &__h2{
+
+    }
+    &__form{
+
+        &__input{
+
+        }
+        &__button{
+
+        }
+    }
+}
+
+.signupWrapper{
+    height: 94vh;
+}
+.signupForm{
+    height: fit-content;
+
+    &__h2{
+
+    }
+    &__form{
+
+        &__input{
+
+        }
+        &__button{
+
+        }
+    }
+}
