@@ -8,7 +8,7 @@
             echo"<p>Welcome " . $_SESSION["useruid"] . "</p>";
         }
         else{
-            echo"<p>banana</p>";
+            echo"<p>AAAAAAAAAA</p>";
         }
     ?>
 </section>
