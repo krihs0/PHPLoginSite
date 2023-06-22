@@ -30,6 +30,10 @@
     }
 }
 
+section{
+    height: 100%;
+}
+
 .loginWrapper{
     height: 94vh;
 }
@@ -66,5 +70,18 @@
         &__button{
 
         }
+    }
+}
+
+.footer{
+    width: 100vw;
+    height: fit-content;
+}
+.footer__socials{
+    display: flex;
+    justify-content: space-between;
+    p{
+        font-size: 1.2rem;
+        color: #727171;
     }
 }
